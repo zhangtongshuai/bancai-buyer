@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>买家中心 - 板财网</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="renderer" content="webkit">
+    <!-- style -->
+    <link rel="stylesheet" href="assets/js/lib/css/layui.css"  media="all">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/backbase.css"/>
+    <link rel="stylesheet" href="assets/css/buyer-invoice-info.css">
+    <link rel="stylesheet" href="assets/css/iconfont.css"/>
+</head>
+<body>
+    <!-- header -->
+    <div class="buyer-header cf">
+	<div class="user-top">
+        <div class="w cf">
+            <div class="fl">
+                <ul class="user-do">
+                    <li>
+                    	<a href="http://www.bancai.com" class="user-login">
+                    		<i class="iconfont icon-homepage"></i>板财首页
+                    	</a>
+                    </li>
+                    <li>
+                    	<a href="javascript: void(0)" class="user-position">
+                    		<i class="iconfont icon-address"></i><span></span>
+                    	</a>
+                    </li>  
+                </ul>
+            </div>
+            <div class="fr">
+                <ul class="user-info">
+                    <li><a href="">你好，<span></span></a><div>退出登录</div></li>
+                    <li><a href="">在线客服</a></li>
+                    <li><i class="iconfont icon-phone"></i>客服电话: 400-0007-999</li>
+                    <li>手机板财
+                    	<img src="assets/images/vcode.gif" width="150px" class="hideen" alt="手机端二维码" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-top-box">
+        	<div class="w cf">
+	            <h1 class="logo fl">
+	            	<a href="">
+	            		<img src="assets/images/buyer-center-logo.png" width="100px" height="50px" alt="板财网">
+	            	</a>
+	            </h1>
+	            <h1 class="buyer-title fl">
+	            	买家中心
+	            </h1>
+	            <h2 class="fl">
+	            	<a href="">首页</a>
+	            </h2>
+	            <h2 class="fl">
+	            	<a href="">消息</a>
+	            	<span>0</span>
+	            </h2>
+	            <div class="search-box fl">
+	            	<div class="select_box select-cate">
+                        <span class="select_txt">商品</span>
+                        <div class="option text-c">
+                            <a>商品</a>
+                            <a>商家</a>
+                        </div>
+						<i class="iconfont icon-arrow-down"></i>
+                    </div>
+                    <input type="hidden" id="select_value" />
+                    <input type="text" class="select-txt" placeholder="请输入要查询关键词">
+                    <button class="search-btn fr">搜索</button>
+	            </div>
+	            <div class="m-cart fl">
+	                <a href="" class="text-c">
+	                	<i class="iconfont icon-cart"></i>我的购物车
+	                	<span>0</span>
+	                </a> 
+	            </div>
+	        </div>
+        </div>
+    </div>
+</div>
+    <!-- content -->
+    <div class="buyer-content cf w">
+		<ul>
+			<!-- slider -->
+    		<li class="buyer-slider fl">
+	<dl>
+		<dt class="margin-top-none"><a href="javascript: void(0)">基本信息</a></dt>
+		<dd><a href="buyer-usermsg.html">用户信息</a></dd>
+		<dd><a href="buyer-level.html">积分级别</a></dd>
+		<dd><a href="buyer-cert.html">联系人信息</a></dd>
+		<dd><a href="buyer-consignee.html">收货人信息</a></dd>
+		<dd><a href="buyer-commsg.html">公司信息</a></dd>
+		<dd><a href="buyer-realname.html">实名认证</a></dd>
+		<dd><a href="buyer-change.html">更改密码</a></dd>
+	</dl>
+	<dl>
+		<dt><a href="javascript: void(0)">求购单</a></dt>
+		<dd><a href="buyer-buy.html">发布</a></dd>
+		<dd><a href="buyer-buyin.html">发布中</a></dd>
+		<dd><a href="buyer-end-order.html">已完成</a></dd>
+	</dl>
+	<dl>
+		<dt><a href="javascript: void(0)">订单</a></dt>
+		<dd><a href="buyer-order-unpaid.html">未付款订单</a></dd>
+		<dd><a href="buyer-order-alreadypaid.html">已付款订单</a></dd>
+		<dd><a href="buyer-order-complete.html">已完成订单</a></dd>
+	</dl>
+	<dl>
+		<dt><a href="javascript: void(0)">评价管理</a></dt>
+		<dd><a href="">给出评价</a></dd>
+	</dl>
+	<dl>
+		<dt><a href="javascript: void(0)">我的关注</a></dt>
+		<dd><a href="">关注产品</a></dd>
+		<dd><a href="">关注店铺</a></dd>
+		<dd><a href="">关注活动</a></dd>
+	</dl>
+	<dl>
+		<dt><a href="javascript: void(0)">我的发票</a></dt>
+		<dd><a href="buyer-invoice-info.html">发票信息维护</a></dd>
+	</dl>
+</li>
+
+            <li class="buyer-content-right fl">
+                <div class="buyer-right-top">
+                    发票信息维护
+                </div>
+                <div class="buyer-right-center"></div>
+                <div id="invoice-info-maintain"></div>
+            </li>
+		</ul>
+	</div>
+    
+    <!-- footer -->
+    <div class="buyer-center-footer w">
+	Copyright &copy; 2017-2027 板财网版权所有
+</div>
+     <!-- use requireJS -->
+    <script data-main="assets/js/modules/buyer-invoice-info" src="assets/js/lib/require.js"></script>
+    <!--幕后人员：【策划：刘欣欣】【制作：web前端 张同帅】【2018】-->
+</body>
+</html>
