@@ -1,0 +1,32 @@
+<div class="buyer-right-bottom cf">
+    <div>
+        <span>收货人：</span>
+        <span>
+			<input type="text" name="shr" id="shr" value="" onkeyup="this.value=this.value.replace(/^ +| +$/g,'')" maxlength="10"/>
+		</span>
+    </div>
+    <div>
+        <span>收货地址：</span>
+        <span>
+             <div class="layui-form-item">
+                 <div class="layui-input-block area">
+                      <select name="province" class="province" id="province">
+                          <option value="省份">省份</option>
+                      <select>
+                      <select name="city" class="city" id="city">
+                          <option value="城市">城市</option>
+                      <select>
+                      <select name="town" class="district" id="town">
+                          <option value="区/县">区/县</option>
+                       <select>
+                 </div>
+             </div>
+			<input type="text" name="shr_address" id="shr_address" value="" maxlength="50" placeholder="详细地址"/>
+		</span>
+    </div>
+    <div>
+        <span>联系电话：</span>
+        <span><input type="text" name="shr_phone" id="shr_phone" value="" maxlength="20"/></span>
+    </div>
+    <button id="modify_btn">修改</button>
+</div>

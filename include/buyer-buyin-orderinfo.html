@@ -1,0 +1,48 @@
+<div class="buyer-right-top">
+    求购单(<span>{{data.pur_id}}</span>)<b class="details-release-date">发布日期：<span>{{data.pur_date}}</span></b>
+</div>
+<div class="buyer-right-center"></div>
+<div class="buyer-right-bottom cf">
+    <div class="buyer-order-details">
+        <div class="details-ul1">
+            <ul class="ul1">
+                <li>品类：<span>{{data.catagory}}</span></li>
+                <li>品名：<span>{{data.pname}}</span></li>
+            </ul>
+            <ul>
+                <li>规格：<span>{{data.spec}}</span></li>
+                <li>采购数量：<span>{{data.ammount}}</span><span>{{data.unit}}</span></li>
+            </ul>
+        </div>
+        <div class="details-ul2 fl">
+            <ul class="ul2">
+                <li>预期价格：<span>{{data.price}}</span></li>
+                <li>
+                    <table>
+                        <tr>
+                            <td style="width: 60px;" valign="top">交货地点：</td>
+                            <td><span>{{data.pur_address}}</span></td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+            <ul>
+                <li>公司名称：<span>{{data.company}}</span></li>
+                <li>联系人：<span>{{data.contact}}</span></li>
+                <li>联系方式：<span>{{data.phone_no}}</span></li>
+            </ul>
+        </div>
+        <div class="details-ul3 fl">
+            <table>
+                <tr>
+                    <td style="width: 40px;" valign="top">备注：</td>
+                    <td><span>{{data.remark}}</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="details-btn1">
+            <input type="button" value="停止接收报价" id="stop-btn"/>
+            <input type="button" value="关闭" id="close-btn"/>
+        </div>
+    </div>
+</div>
