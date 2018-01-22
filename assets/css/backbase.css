@@ -1,0 +1,74 @@
+/*输入框的样式*/
+input{
+	outline: none;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 4px;
+	font-size: 12px;
+}
+/*输入框获取焦点后*/
+input:hover{
+	border-color: #ccc;
+}
+/*文本域*/
+textarea{
+	border-color: #ddd;
+	outline: none;
+	resize: none;
+	border-radius: 4px;
+}
+/*按钮*/
+button{
+	outline: none;
+	border: none;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+/*紧跟按钮后面的span文本*/
+button+span{
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 14px;
+	color: #ff3c00;
+}
+/*错误信息文本提示*/
+small{
+	margin-left: 5px;
+	font-size: 12px;
+	color: #999;
+}
+
+span,i.iconfont{
+	font-size: 12px;
+}
+i.iconfont{
+	padding-right: 2px;
+}
+input.select-txt{
+	border: none;
+}
+
+.buyer-slider dl dd a{
+	font-size: 12px;
+}
+.buyer-slider dl dd a:hover{
+	color: #ff3c00;
+}
+/*商品下拉框*/
+.select_box{
+	position: relative;
+}
+.select_box .icon-arrow-down{
+	position: absolute;
+	left: 60px;
+	top: 0px;
+	color: #999;
+	cursor: pointer;
+}

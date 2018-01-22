@@ -1,0 +1,147 @@
+/**
+ *@base style 
+ *@author SUN @2017.11.23
+*/
+*{margin: 0; padding: 0}
+body{ font: 12px/1.5 "\5FAE\8F6F\96C5\9ED1", "Microsoft Yahei", "Hiragino Sans GB", tahoma, arial, "\5B8B\4F53";color:#333;background:#fff;  min-width:1200px;}
+body,html,ul,li,dl,dt,dd,ol,thead,tbody,tr,th,td,form,h1,h2,h3,h4,h5,img,p,form,input,label,a,i,b{margin:0px;padding:0px;}
+ol,ul,li{list-style: none;}
+h1,h2,h3,h4,h5{font-weight: normal;}
+a{text-decoration: none; color: #333;}
+a:hover{color: #ff3c00;}
+img{border:none;}
+input{outline: none;}
+
+/*common class*/
+.w{width: 1200px; margin: 0 auto;}
+.fl{float: left;}
+.fr{float: right;}
+.cf{clear: both;}
+.cf:after{content:''; clear: both; overflow:hidden; display:block; height:0; font-size:0;}
+
+.text-l{text-align: left;}
+.text-c{text-align: center;}
+.text-r{text-align: right;}
+
+.hideen{display: none;}
+
+/*icon font*/
+
+/**
+ * table
+ */
+/*默认table*/
+table{width:100%;empty-cells:show;background-color:transparent;border-collapse:collapse;border-spacing:0}
+table th{text-align:left; font-weight:400}
+/*带水平线*/
+.table th{font-weight:bold}
+.table th,.table td{padding:8px;line-height:20px}
+.table td{text-align:left}
+.table tbody tr.success > td{background-color:#dff0d8}
+.table tbody tr.error > td{background-color:#f2dede}
+.table tbody tr.warning > td{background-color:#fcf8e3}
+.table tbody tr.info > td{background-color:#d9edf7}
+.table tbody + tbody{border-top:2px solid #ddd}
+.table .table{background-color:#fff}
+ 
+/*带横向分割线*/
+.table-border{border-top:1px solid #ddd}
+.table-border th,.table-border td{border-bottom:1px solid #ddd}
+ 
+/*th带背景*/
+.table-bg thead th{background-color:#F5FAFE}
+/*带外边框*/
+.table-bordered{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;border-left:0}
+.table-bordered th,.table-bordered td{border-left:1px solid #ddd}
+.table-border.table-bordered{border-bottom:0}
+ 
+/*奇数行背景设为浅灰色*/
+.table-striped tbody > tr:nth-child(odd) > td,.table-striped tbody > tr:nth-child(odd) > th{background-color:#f9f9f9}
+/*竖直方向paddinfg缩减一半*/
+.table-condensed th,.table-condensed td{padding:4px 5px}
+/*鼠标悬停样式*/
+.table-hover tbody tr:hover td,.table-hover tbody tr:hover th{background-color: #f5f5f5}
+/*定义颜色*/
+/*悬停在行*/
+.table tbody tr.active,.table tbody tr.active>td,.table tbody tr.active>th,.table tbody tr .active{background-color:#F5F5F5!important}
+/*成功或积极*/
+.table tbody tr.success,.table tbody tr.success>td,.table tbody tr.success>th,.table tbody tr .success{background-color:#DFF0D8!important}
+ 
+/*警告或出错*/
+.table tbody tr.warning,.table tbody tr.warning>td,.table tbody tr.warning>th,.table tbody tr .warning{background-color:#FCF8E3!important}
+/*危险*/
+.table tbody tr.danger,.table tbody tr.danger>td,.table tbody tr.danger>th,.table tbody tr .danger{background-color:#F2DEDE!important}
+ 
+/*表格文字对齐方式，默认是居左对齐*/
+.table .text-c th,.table .text-c td{text-align:center}/*整行居中*/
+.table .text-r th,.table .text-r td{text-align:right}/*整行居右*/
+.table th.text-l,.table td.text-l{text-align:left!important}/*单独列居左*/
+.table th.text-c,.table td.text-c{text-align:center!important}/*单独列居中*/
+.table th.text-r,.table td.text-r{text-align:right!important}/*单独列居右*/
+
+/**
+ * form
+ */
+
+/**
+ * public part
+ */
+/*header*/
+.top-banner{height: 80px; background: #333;}
+.user-top{height: 30px; line-height: 30px;background: #f5f5f5;}
+.user-top ul li{float: left; padding:0 10px;}
+.user-top ul li a:hover{color: #ff3c00;}
+.header-top{padding: 30px 0;}
+
+.logo{width: 144px; height: 72px; padding: 0 15px;}
+.search-box{height: 40px;  width: 550px; margin-left: 120px; border:1px solid #ff3c00;}
+.search-box input,.search-box button{border:none; height: 40px; line-height: 40px;}
+.search-box .select-txt{width: 385px;}
+.search-box .search-btn{width: 80px; background: #ff3c00; color: #fff; font-family: "微软雅黑","Microsoft Yahei"; font-size: 15px;cursor: pointer;}
+.search-box .hot-tag{padding: 10px 0;}
+.search-box .hot-tag a{padding: 0 10px; color: #999;}
+.mod_select{position:absolute;left:30%;top:100px;}
+.mod_select ul{margin:0;padding:0;}
+.mod_select ul li{list-style-type:none;float:left;margin-left:20px;height:24px;}
+.select_box{float:left;position:relative;width:80px; height: 40px; line-height: 40px;}
+.select_txt{width: 80px; display: block; text-align: center; cursor:text;overflow:hidden; cursor: pointer;}
+.option{width:80px;border:solid 1px #EDE7D6;position:absolute;top:40px;left:-1px;z-index:2;overflow:hidden;display:none;}
+.option a{display:block;height:40px;line-height:40px;width:100%;background:#fff;}
+.option a:hover{background:#ff3c00; color: #fff;}
+.m-cart a{display: block; width: 140px; height: 40px; line-height: 40px; font-size: 14px; margin-left: 30px; border:1px solid #888888;}
+
+
+.all-cate{width: 200px; position: relative;}
+.all-cate h2{height:30px; line-height: 30px; background: #7f7f7f; color: #fff; font-size: 16px; text-align: center;}
+.all-cate ul{height: 310px;width: 200px; background: #e6e6e6; position: absolute; z-index: 999;}
+.all-cate ul li{line-height: 31px;}
+.all-cate ul li a{display: block; font-size: 14px; padding-left: 20px;}
+.all-cate ul li a:hover{background: #fff;}
+.navbox{margin-left: 80px;}
+.navbox ul li{float: left; height: 30px; line-height: 30px;}
+.navbox ul li a{display: block; font-size: 16px; padding:0 20px;}
+.navbox ul li a.selcet{color:#ff3c00;}
+
+/*footer*/
+
+/*sider*/
+/*弹出框按钮*/
+.layui-layer .layui-layer-btn .layui-layer-btn0{
+    border-color:#ff3c00;
+    background-color:#ff3c00;
+}
+/*退出按钮*/
+.user-top .user-info div{
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 80px;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    display: none;
+}
+.user-top .user-info div:hover{color: #ff3c00}

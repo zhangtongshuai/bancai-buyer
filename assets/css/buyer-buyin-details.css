@@ -1,0 +1,326 @@
+/* big background */
+body{
+    background-color: #f6f6f6;
+}
+
+/*nav top message*/
+.buyer-header li,.buyer-header a{
+    color: #333;
+}
+
+/*code toggle*/
+.buyer-header .user-info li{
+    position: relative;
+}
+.buyer-header .user-info li img{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    z-index: 5;
+}
+.header-top-box .search-btn{
+    outline: none;
+}
+.header-top-box .search-btn:hover{
+    color: #ff3c00;
+}
+
+/*buyer center header style*/
+.header-top-box{
+    height: 80px;
+    background-color: #e93802;
+}
+.header-top-box .logo{
+    margin-top: 15px;
+    width: 100px;
+    height: 50px;
+}
+.header-top-box .buyer-title{
+    margin-left: 10px;
+    font-size: 24px;
+    line-height: 80px;
+    color: #fff;
+}
+.header-top-box h2 a{
+    line-height: 80px;
+    color: #fff;
+    font-size: 16px;
+}
+.header-top-box h2:nth-of-type(1){
+    margin-left: 150px;
+    margin-right: 50px;
+    position: relative;
+}
+.header-top-box h2:nth-of-type(2) span{
+    display: inline-block;
+    visibility: hidden;
+    background-color: #fff;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border-radius: 8px;
+    color: #e93802;
+    line-height: 16px;
+    font-weight: bold;
+    position: relative;
+    top: -6px;
+    left: -4px;
+}
+.header-top-box .m-cart a span{
+    display: none;
+}
+.user-top ul li:hover{
+    cursor: pointer;
+}
+.header-top-box h2:hover a{
+    border-bottom: 2px solid white;
+}
+
+/*搜索框*/
+.header-top-box .search-box .select-txt{
+    width: 275px;
+    padding-left: 5px;
+    border-radius: 0;
+}
+.header-top-box .search-box{
+    width: 418px;
+    margin-top: 20px;
+    border: none;
+    margin-left: 80px;
+}
+.header-top-box .search-btn{
+    width: 58px;
+    background-color: #f6f6f6;
+    color: #333;
+    border-left: 1px solid #ccc;
+    border-radius: 0;
+}
+.header-top-box .search-box .select_txt{
+    background-color: #fff;
+    width: 79px;
+    border-right: 1px solid #ccc;
+}
+.header-top-box .search-box .option{
+    width: 77px;
+    margin-left: 1px;
+}
+.header-top-box .search-box ::-webkit-input-placeholder{
+    color: #ccc;
+}.header-top-box .search-box ::-moz-placeholder{
+     color: #ccc;
+ }
+.header-top-box .search-box ::-ms-input-placeholder{
+    color: #ccc;
+}
+.header-top-box .m-cart a{
+    border: none;
+    width: 140px;
+    height: 40px;
+    background-color: #f6f6f6;
+    color: #333;
+    margin-top: 20px;
+}
+.header-top-box .m-cart a:hover{
+    color: #ff3c00;
+}
+.header-top-box .m-cart span{
+    display: inline-block;
+    background-color: #e93802;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    line-height: 16px;
+    font-weight: bold;
+    position: relative;
+    top: -6px;
+    left: -2px;
+}
+
+/*buyer center content slider style*/
+dl dt a:hover{
+    color: #333;
+}
+.buyer-content{
+    margin-top: 30px;
+}
+.buyer-content .buyer-slider{
+    width: 130px;
+    padding-left: 20px;
+    margin: 0 0 180px 0;
+}
+.buyer-content .buyer-slider .margin-top-none{
+    margin-top: 0;
+}
+.buyer-content .buyer-slider dt{
+    margin: 30px 0 5px 0;
+}
+.buyer-content .buyer-slider dt a{
+    font-weight: bold;
+    font-size: 14px;
+}
+.buyer-content .buyer-slider dd{
+    margin: 2px 0;
+}
+/*slide right*/
+.buyer-content .buyer-right-top{
+    width: 1030px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+}
+.buyer-content .buyer-content-right .buyer-right-center{
+    width: 1050px;
+    height: 2px;
+    background-color: #e8e8e8;
+}
+.buyer-content .buyer-right-bottom{
+    width: 1000px;
+    padding: 10px 25px 15px 25px;
+    background-color: #fff;
+}
+.buyer-right-bottom div{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* buyer center footer style */
+.buyer-center-footer{
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+/* buyer-buyin-details - - - - - buyer-right-bottom  求购单*/
+.buyer-right-top .details-release-date{
+    font-size: 12px;
+    color: #888;
+    font-weight: normal;
+    float: right;
+    padding-right: 20px;
+}
+.buyer-content .buyer-content-right .buyer-right-bottom .details-ul1 ul{
+     width: 295px;
+     float: left;
+     border-bottom: 1px solid #e8e8e8;
+     padding-bottom: 15px;
+ }
+.buyer-content .buyer-content-right .buyer-right-bottom .details-ul1 .ul1{
+    margin-right: 50px;
+}
+.buyer-content .buyer-content-right .buyer-right-bottom .details-ul2 ul{
+    width: 295px;
+    float: left;
+    padding-top: 15px;
+}
+.buyer-content .buyer-content-right .buyer-right-bottom .details-ul2 .ul2{
+     margin-right: 50px;
+ }
+.buyer-content .buyer-content-right .buyer-right-bottom .buyer-order-details{
+    padding-left: 75px;
+    font-size: 12px;
+    color: #666;
+}
+.buyer-content .buyer-content-right .buyer-right-bottom .buyer-order-details li{
+    height: 22px;
+    line-height: 22px;
+}
+.buyer-content .buyer-content-right .buyer-right-bottom .details-ul3{
+    width: 640px;
+    border-top: 1px solid #e8e8e8;
+    padding-top: 20px;
+}
+.buyer-content .buyer-content-right .buyer-right-bottom .details-ul3 table td:nth-of-type(2){
+    width: 565px;
+}
+.buyer-order-details .details-btn1{
+    position: relative;
+    left:116px;
+    right: 0;
+}
+.buyer-order-details .details-btn1 input{
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+    color: #666;
+    border-radius: 2px;
+    height:24px;
+    line-height: 24px;
+}
+.buyer-order-details .details-btn1 input:hover{
+    background: #ff3c00;
+    color: #fff;
+    border: none;
+}
+.buyer-order-details .details-btn1 input:nth-of-type(1){
+    width: 100px;
+    margin-right: 20px;
+}
+.buyer-order-details .details-btn1 input:nth-of-type(2){
+    width: 50px;
+}
+
+/*报价*/
+#details-offer-care{
+    font-size: 12px;
+    color: #666;
+    margin-left: 20px;
+}
+.buyer-content-right{
+    margin-bottom: 10px;
+}
+.buyer-right-bottom .buyin-details-offer .details-offer-info table{
+    text-align: center;
+    border: 1px solid #e8e8e8;
+}
+.buyer-right-bottom .buyin-details-offer .details-offer-info table tr{
+    height: 40px;
+}
+.buyer-right-bottom .buyin-details-offer .details-offer-info table th{
+    text-align: center;
+    background: #f2f2f2;
+    border-right:1px solid #e8e8e8;
+}
+.buyer-right-bottom .buyin-details-offer .details-offer-info table td{
+    padding: 5px 0;
+    font-size: 12px;
+    color: #666;
+    border-right:1px solid #e8e8e8;
+}
+.buyer-right-bottom .buyin-details-offer .details-offer-info table td button{
+    width: 70px;
+    height: 24px;
+    line-height: 24px;
+    background: #ff9000;
+    font-size: 12px;
+    color: #fff;
+}
+.buyer-right-bottom .buyin-details-offer .details-offer-info table tbody tr{
+    border-top: 1px solid #e8e8e8;
+}
+.buyer-right-bottom .buyin-details-offer .details-offer-info table tbody tr:hover{
+    background: #f2f2f2;
+}
+.buyer-right-bottom .buyin-details-offer .details-offer-info table{
+    margin-top: 10px;
+}
+.buyer-order-details input{
+    border: none;
+}
+.no-res{
+    text-align: center;
+    font-size: 12px;
+}
+/*.selected-dealer{*/
+    /*background: #ff3c00;*/
+    /*color: #fff;*/
+/*}*/
+.gray-btn{
+    background: #e8e8e8;
+    color: #fff;
+}

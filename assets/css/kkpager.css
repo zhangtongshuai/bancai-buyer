@@ -1,0 +1,13 @@
+#kkpager{clear:both;color:#999;padding:15px 0;font-size:13px;font-family: "微软雅黑","Microsoft YaHei";text-align: center;}
+#kkpager a{float: left;border: 1px solid #ccc;display: inline; height:34px; line-height: 34px; padding: 0 12px;margin-right: 5px;cursor: pointer;background: #fff;text-decoration:none;color:#999;}
+#kkpager span.disabled{float: left;display: inline; height:34px; line-height: 34px; padding: 0 12px;margin-right: 5px;border:1px solid #DFDFDF;background-color:#FFF;color:#DFDFDF;}
+#kkpager span.curr{float: left;border: 1px solid #FF6600;display: inline; height:34px; line-height: 34px; padding: 0 12px;margin-right: 5px;background: #FF6600;color: #FFF;}
+#kkpager a:hover{border:1px solid #FF6600; background-color:#FF6600; color:#fff;}
+#kkpager_gopage_wrap{position:relative;}
+#kkpager_btn_go {width:44px;height:34px; margin:0 5px; line-height:34px; border:0px;overflow:hidden; text-align:center;padding-right:10px;cursor:pointer;background-color:#FF6600;color:#FFF;}
+#kkpager_btn_go_input{width:40px;height:32px;  margin:0 5px; color:#999;text-align:center;margin-left:10px;margin-right:1px;border:1px solid #DFDFDF;outline:none;padding-right:10px;}
+#kkpager_btn_go_input.focus{border-color:#FF6600;}
+#kkpager .pageBtnWrap,#kkpager .infoTextAndGoPageBtnWrap{display: inline-block; vertical-align: middle;}
+#kkpager .spanDot{float:left; line-height: 34px; padding: 0 10px; color: #999;}
+#kkpager .currPageNum{color:#FD7F4D;}
+#kkpager .infoTextAndGoPageBtnWrap{margin-left:20px;}
